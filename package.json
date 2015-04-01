@@ -1,0 +1,23 @@
+{
+	"name": "brisk-cron",
+	"description": "Cron operations for a Brisk application",
+	"version": "0.0.1",
+	"author": "makesites",
+	"contributors": [
+		{ "name": "Makis Tracend", "email": "makis@makesit.es" }
+	],
+	"homepage": "http://github.com/brisk-modules/cron",
+	"keywords": ["brisk", "cron", "schedule", "job", "manager"],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/brisk-modules/cron.git"
+	},
+	"engines": { "node": ">=0.8.x" },
+	"main": "index",
+	"bin": { },
+	"dependencies": {
+		"node-schedule": "0.2.6",
+		"bodacious": "0.2.0"
+	}
+}
+
