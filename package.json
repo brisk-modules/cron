@@ -1,6 +1,6 @@
 {
 	"name": "brisk-cron",
-	"description": "Cron operations for a Brisk application",
+	"description": "Async operations and task management for a Brisk application",
 	"version": "0.0.1",
 	"author": "makesites",
 	"contributors": [
@@ -16,6 +16,7 @@
 	"main": "index",
 	"bin": { },
 	"dependencies": {
+		"brisk": "0.9.1",
 		"node-schedule": "0.2.6",
 		"bodacious": "0.2.0"
 	}
