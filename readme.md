@@ -6,7 +6,7 @@ Async operations and task management for an application running [Brisk](http://g
 ## Features
 
 * Plug & play
-*
+* Random execution for every interval
 
 
 ## Dependencies
