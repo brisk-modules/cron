@@ -14,8 +14,11 @@ var helper = Main.extend({
 		var minutely = new schedule.RecurrenceRule();
 		minutely.second = Math.round( Math.random() * 60 ); // every minute ( random second )
 		var hourly = new schedule.RecurrenceRule();
+		hourly.second = Math.round( Math.random() * 60 ); // random second
 		hourly.minute = Math.round( Math.random() * 60 ); // every hour ( random minute )
 		var daily = new schedule.RecurrenceRule();
+		daily.second = Math.round( Math.random() * 60 ); // random second
+		daily.minute = Math.round( Math.random() * 60 ); // random minute
 		daily.hour = Math.round( Math.random() * 24 ); // every day ( random hour )
 
 		// tasks
