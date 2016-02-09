@@ -17,8 +17,8 @@
 	"bin": { },
 	"dependencies": {
 		"brisk": "0.9.1",
-		"node-schedule": "0.2.6",
-		"bodacious": "0.2.0"
+		"node-schedule": "1.0.0",
+		"bodacious": "0.x"
 	}
 }
 
