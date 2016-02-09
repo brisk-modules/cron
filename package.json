@@ -1,7 +1,7 @@
 {
 	"name": "brisk-cron",
 	"description": "Async operations and task management for a Brisk application",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"author": "makesites",
 	"contributors": [
 		{ "name": "Makis Tracend", "email": "makis@makesit.es" }
